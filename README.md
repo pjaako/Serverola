@@ -4,7 +4,7 @@ Serverola is a home server that blends into the living room interior camouflagin
 Yes and no. On one hand, it is a PC in an amplifier case, on another hand, it is still a fully functioning integrated amplifier, plus any functionality one can get from the amp+computer duo.
 
 ## How is it possible to shove PC hardware into an amp without disturbing the amp hardware?
-It is not. Well, not in the case of Onkyo A-3220 amplifier, which is my case. Forty-year-old A/B class audio boards had to go to give way to an Intel N100 motherboard, two 3,5" HDDs and  modern Class D amplifier hardware. The only exception is the original japanese passive Baxandall circuit board, since it is the most efficient way to retain original tone and volume controls and keep their functionality too.
+It is not. Well, not in the case of Onkyo A-8220 amplifier, which is my case. Forty-year-old A/B class audio boards had to go to give way to an ASRock N100DC-ITX motherboard (Intel N100, two SATA connectors, a DDR4 DIMM slot and a PCIe 3.0 x4 slot), two 3,5" HDDs and  modern Class D amplifier hardware. The only exception is the original japanese passive Baxandall circuit board, since it is the most efficient way to retain original tone and volume controls and keep their functionality too.
 
 ## Why anybody would do this?
 I don't know. For me, it was the following:
