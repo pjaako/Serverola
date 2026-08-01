@@ -9,12 +9,12 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'ProxVox back plate.step',
-/* time_stamp */ '2026-01-31T18:43:34+01:00',
+/* name */ 'Servetola back plate.step',
+/* time_stamp */ '2026-08-01T15:26:20+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
-/* originating_system */ 'Autodesk Translation Framework v14.24.0.0',
+/* originating_system */ 'Autodesk Translation Framework v15.8.0.0',
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -29,9 +29,9 @@ REPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION(#11)
 SHAPE_REPRESENTATION_RELATIONSHIP()
 );
 #13=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#12,#1258);
-#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Bitphonic back plate:1',
-'Bitphonic back plate:1','Bitphonic back plate:1',#1262,#1263,
-'Bitphonic back plate:1');
+#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Serverola-86 back plate:1',
+'Serverola-86 back plate:1','Serverola-86 back plate:1',#1262,#1263,
+'Serverola-86 back plate:1');
 #15=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#1260,#16);
 #16=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#18),#1248);
 #17=STYLED_ITEM('',(#1273),#18);
@@ -1327,23 +1327,24 @@ SOLID_ANGLE_UNIT()
 #1259=SHAPE_REPRESENTATION('',(#760,#824),#1247);
 #1260=SHAPE_REPRESENTATION('',(#761),#1248);
 #1261=PRODUCT_DEFINITION_CONTEXT('part definition',#1269,'design');
-#1262=PRODUCT_DEFINITION('ProxVox back plate','ProxVox back plate v2',#1264,
-#1261);
-#1263=PRODUCT_DEFINITION('Bitphonic back plate','Bitphonic back plate',
-#1265,#1261);
+#1262=PRODUCT_DEFINITION('Serverola-86 back plate',
+'Serverola-86 back plate v3',#1264,#1261);
+#1263=PRODUCT_DEFINITION('Serverola-86 back plate_1',
+'Serverola-86 back plate',#1265,#1261);
 #1264=PRODUCT_DEFINITION_FORMATION('',$,#1271);
 #1265=PRODUCT_DEFINITION_FORMATION('',$,#1272);
-#1266=PRODUCT_RELATED_PRODUCT_CATEGORY('ProxVox back plate v2',
-'ProxVox back plate v2',(#1271));
-#1267=PRODUCT_RELATED_PRODUCT_CATEGORY('Bitphonic back plate',
-'Bitphonic back plate',(#1272));
+#1266=PRODUCT_RELATED_PRODUCT_CATEGORY('Serverola-86 back plate v3',
+'Serverola-86 back plate v3',(#1271));
+#1267=PRODUCT_RELATED_PRODUCT_CATEGORY('Serverola-86 back plate',
+'Serverola-86 back plate',(#1272));
 #1268=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1269);
 #1269=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1270=PRODUCT_CONTEXT('part definition',#1269,'mechanical');
-#1271=PRODUCT('ProxVox back plate','ProxVox back plate v2',$,(#1270));
-#1272=PRODUCT('Bitphonic back plate','Bitphonic back plate',$,(#1270));
+#1271=PRODUCT('Serverola-86 back plate','Serverola-86 back plate v3',$,
+(#1270));
+#1272=PRODUCT('Serverola-86 back plate_1','Serverola-86 back plate',$,(#1270));
 #1273=PRESENTATION_STYLE_ASSIGNMENT((#1274));
 #1274=SURFACE_STYLE_USAGE(.BOTH.,#1275);
 #1275=SURFACE_SIDE_STYLE('',(#1276));

@@ -9,12 +9,12 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'ProxVox motherboard brackets.step',
-/* time_stamp */ '2026-01-31T18:44:38+01:00',
+/* name */ 'Serverola motherboard brackets.step',
+/* time_stamp */ '2026-08-01T15:27:15+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
-/* originating_system */ 'Autodesk Translation Framework v14.24.0.0',
+/* originating_system */ 'Autodesk Translation Framework v15.8.0.0',
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -30,9 +30,10 @@ REPRESENTATION_RELATIONSHIP_WITH_TRANSFORMATION(#11)
 SHAPE_REPRESENTATION_RELATIONSHIP()
 );
 #13=CONTEXT_DEPENDENT_SHAPE_REPRESENTATION(#12,#2229);
-#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Bitphonic motherboard bracket:1',
-'Bitphonic motherboard bracket:1','Bitphonic motherboard bracket:1',#2233,
-#2234,'Bitphonic motherboard bracket:1');
+#14=NEXT_ASSEMBLY_USAGE_OCCURRENCE('Serverola-86 motherboard bracket:1',
+'Serverola-86 motherboard bracket:1',
+'Serverola-86 motherboard bracket:1',#2233,#2234,
+'Serverola-86 motherboard bracket:1');
 #15=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#2231,#16);
 #16=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#19,#20),#2219);
 #17=STYLED_ITEM('',(#2244),#19);
@@ -2307,25 +2308,26 @@ SOLID_ANGLE_UNIT()
 #2230=SHAPE_REPRESENTATION('',(#1355,#1465),#2218);
 #2231=SHAPE_REPRESENTATION('',(#1356),#2219);
 #2232=PRODUCT_DEFINITION_CONTEXT('part definition',#2240,'design');
-#2233=PRODUCT_DEFINITION('ProxVox motherboard brackets',
-'ProxVox motherboard brackets v4',#2235,#2232);
-#2234=PRODUCT_DEFINITION('Bitphonic motherboard bracket',
-'Bitphonic motherboard bracket',#2236,#2232);
+#2233=PRODUCT_DEFINITION('Serverola-86 motherboard brackets',
+'Serverola-86 motherboard brackets v5',#2235,#2232);
+#2234=PRODUCT_DEFINITION('Serverola-86 motherboard bracket',
+'Serverola-86 motherboard bracket',#2236,#2232);
 #2235=PRODUCT_DEFINITION_FORMATION('',$,#2242);
 #2236=PRODUCT_DEFINITION_FORMATION('',$,#2243);
 #2237=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'ProxVox motherboard brackets v4','ProxVox motherboard brackets v4',(#2242));
-#2238=PRODUCT_RELATED_PRODUCT_CATEGORY('Bitphonic motherboard bracket',
-'Bitphonic motherboard bracket',(#2243));
+'Serverola-86 motherboard brackets v5',
+'Serverola-86 motherboard brackets v5',(#2242));
+#2238=PRODUCT_RELATED_PRODUCT_CATEGORY(
+'Serverola-86 motherboard bracket','Serverola-86 motherboard bracket',(#2243));
 #2239=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#2240);
 #2240=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #2241=PRODUCT_CONTEXT('part definition',#2240,'mechanical');
-#2242=PRODUCT('ProxVox motherboard brackets',
-'ProxVox motherboard brackets v4',$,(#2241));
-#2243=PRODUCT('Bitphonic motherboard bracket',
-'Bitphonic motherboard bracket',$,(#2241));
+#2242=PRODUCT('Serverola-86 motherboard brackets',
+'Serverola-86 motherboard brackets v5',$,(#2241));
+#2243=PRODUCT('Serverola-86 motherboard bracket',
+'Serverola-86 motherboard bracket',$,(#2241));
 #2244=PRESENTATION_STYLE_ASSIGNMENT((#2245));
 #2245=SURFACE_STYLE_USAGE(.BOTH.,#2246);
 #2246=SURFACE_SIDE_STYLE('',(#2247));
