@@ -11,4 +11,8 @@ fp-info-cache
 
 # OS files
 .DS_Store
+._*
 Thumbs.db
+
+# Local editor/assistant scratch
+CLAUDE.md
